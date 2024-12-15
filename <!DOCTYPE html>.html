@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soluciones Logísticas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #D3D3D3; /* Gris claro */
+            color: #003366; /* Azul oscuro */
+        }
+
+        header {
+            background-color: #003366; /* Azul oscuro */
+            color: #ffffff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #FF6F00; /* Naranja cálido */
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1em;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #003366; /* Azul oscuro */
+            color: white;
+        }
+
+        .hero h2 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+        }
+
+        .services {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            background-color: #ffffff;
+        }
+
+        .service {
+            text-align: center;
+            max-width: 300px;
+        }
+
+        .service img {
+            width: 100%;
+            height: auto;
+        }
+
+        .service h3 {
+            margin-top: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #003366; /* Azul oscuro */
+            color: white;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: underline;
+        }
+
+        /* Responsivo para pantallas más pequeñas */
+        @media (max-width: 768px) {
+            .services {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .service {
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Soluciones Logísticas</h1>
+    </header>
+    <nav>
+        <a href="#about">Nosotros</a>
+        <a href="#services">Servicios</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+    <section class="hero">
+        <h2>Tu socio confiable en logística</h2>
+        <p>Ofrecemos soluciones innovadoras para tus necesidades de transporte y almacenamiento.</p>
+    </section>
+    <section id="services" class="services">
+        <div class="service">
+            <img src="alfon.jpeg" whit = 100% alt="Distribución de electrodomésticos">
+            <h3>Distribución de electrodomésticos</h3>
+            <p>Somos especialistas en mover electrodomésticos de manera rápida y segura. ¡Confía en nosotros para la logística de tus productos!</p>
+        </div>
+        <div class="service">
+            <img src="Alfon3.jpeg" whit = 100% alt="Almacenamiento">
+            <h3>Almacenamiento</h3>
+            <p>Guardamos tus productos en instalaciones de alta tecnología.</p>
+            <p><strong>¿Por qué elegirnos?</strong></p>
+            <ul>
+                <li><strong>Seguridad de tus productos:</strong> Nuestras instalaciones cuentan con sistemas avanzados de seguridad para proteger tus bienes las 24 horas del día.</li>
+                <li><strong>Acceso fácil y rápido:</strong> Puedes acceder a tus productos de manera eficiente y sin complicaciones cuando los necesites.</li>
+                <li><strong>Condiciones óptimas:</strong> Mantén tus productos en un ambiente controlado, con condiciones de temperatura y humedad ideales para su conservación.</li>
+                <li><strong>Flexibilidad:</strong> Ofrecemos diferentes tipos de almacenamiento que se adaptan a las necesidades específicas de tu negocio.</li>
+            </ul>
+            <p>Nos aseguramos de que tu carga esté en buenas manos, y que puedas contar con un espacio seguro y confiable para todo tipo de productos.</p>
+        </div>
+        <div class="service">
+            <img src="Alfon2.jpeg" whit = 100% alt="Seguimiento en tiempo real">
+            <h3>Seguimiento en tiempo real</h3>
+            <p>Monitorea tus envíos desde cualquier lugar con nuestra aplicación en línea. Podrás ver la ubicación de tu mercancía, estimar los tiempos de entrega y recibir notificaciones en tiempo real.</p>
+            <p><strong>¿Cómo funciona?</strong></p>
+            <ul>
+                <li>Accede a nuestra plataforma de seguimiento desde tu computadora o dispositivo móvil.</li>
+                <li>Introduce el número de rastreo de tu envío.</li>
+                <li>Visualiza la ubicación exacta de tu paquete en un mapa interactivo.</li>
+                <li>Recibe alertas de cualquier cambio o actualización.</li>
+            </ul>
+            <p>Para implementar esta funcionalidad, podrías usar tecnologías como APIs de Google Maps y servicios de tracking en tiempo real, integrados con nuestra base de datos logística.</p>
+        </div>
+    </section>
+    <section id="contact" style="padding: 20px; background-color: #FF6F00; text-align: center;">
+        <h2>Contacto</h2>
+        <p><strong>Teléfono:</strong> 118208453</p>
+        <p><strong>Correo electrónico:</strong> alfonsoballon432@gmail.com</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Soluciones Logísticas. Todos los derechos reservados.</p>
+        <p><a href="mailto:info@solucioneslogisticas.com">info@solucioneslogisticas.com</a></p>
+    </footer>
+</body>
+</html>
